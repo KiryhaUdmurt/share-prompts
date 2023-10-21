@@ -1,4 +1,5 @@
-import React from "react";
+import Feed from "@components/Feed";
+
 
 const Home = () => {
   return (
@@ -8,10 +9,10 @@ const Home = () => {
         <br className="max-md:hidden" />
         <span className="orange_gradient text-center">AI-Powerded Prompts</span>
         <p className="desc text-center">
-          Promtopia is an open-source AI propmting tool for modern world to
+          Promptopia is an open-source AI propmting tool for modern world to
           discover, create and share creative prompts
         </p>
-        {/* Feed */}
+        <Feed />
       </h1>
     </section>
   );
